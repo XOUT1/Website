@@ -34,13 +34,15 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(252, 235, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
 nav ul li a:hover{
-    color: red;
+    color: rgb(255, 238, 0);
+    transition: all 0.3s ease 0s;
 }
+
 
 .detail{
     margin-left: 8%;
@@ -59,7 +61,7 @@ span{
 }
 
 .detail p{
-    color: #555;
+    color: rgb(141, 141, 141);
     line-height: 22px;
 }
 
