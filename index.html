@@ -25,8 +25,21 @@
             <h1>I'm Iwin <span>Siju</span></h1>
             <p>This is my official website to showcase my works.
             <br>As well as my efficiency to JS and Web applications</p>
-            <a href="https://github.com/XOUT1">CONTACT ME</a>
+            <a href="https://github.com/XOUT1" class="btn" target="_blank">CONTACT ME</a>
         </div>
+<!--script for btn-->
+        <script>
+            const btn = document.querySelector('.btn');
+            btn.onmousemove = function(e){
+                const x = e.pageX - btn.offsetLeft;
+                const y = e.pageY - btn.offsetTop;
+
+                btn.style.setProperty('--x', x + 'px');
+                btn.style.setProperty('--y', y + 'px');
+            }
+            </script>
+
+
         <div class="images">
             <img src="./img/shape.png" class="shape">
             <img src="./img/iwin bg less pic.png" class="iwin">
@@ -35,11 +48,7 @@
 
 
 </body>
-<<<<<<< HEAD
 
 
 
 </html>
-=======
-</html>
->>>>>>> 9e62b79d8f6585770ce06e6431819725f5c4efd4
